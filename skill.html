@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        .nav-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        .nav-item {
+            display: inline;
+            margin-right: 20px;
+        }
+        .content-frame {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .styleinfo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .sagar {
+            text-align: center;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .about {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .infopic img {
+            max-width: 100%;
+            height: auto;
+        }
+        .skills {
+        background-color: #eb21c6;
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    .skill-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .skill-list li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 500px;
+    }
+    
+    .skill-list img {
+        width: 30px; /* Adjust the size as needed */
+        height: 30px; /* Adjust the size as needed */
+        margin-left: 10px;
+    }
+    
+    .skill-list span {
+        font-size: 18px;
+    }
+   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="skill.html">SKILLS</a></li>
+                <li class="nav-item"><a href="project.html">PROJECT</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+                <li class="nav-item"><a href="cv.html">CV</a></li>
+            </ul>
+        </nav>
+        <div class="content-frame">
+            <div class="styleinfo">
+                <div class="skills">
+                    <h1>Skills</h1>
+                    <ul class="skill-list">
+                        <li>
+                            <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" alt="HTML">
+                            <span>HTML</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn-icons-png.flaticon.com/128/919/919826.png" alt="CSS">
+                            <span>CSS</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn-icons-png.flaticon.com/128/1199/1199124.png" alt="javascript">
+                            <span>javascript</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn-icons-png.flaticon.com/128/3098/3098090.png" alt="CSS">
+                            <span>python</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn-icons-png.flaticon.com/128/2906/2906274.png" alt="CSS">
+                            <span>mongodb</span>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
