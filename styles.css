@@ -1,0 +1,88 @@
+/* Reset some default styles for consistency */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the container */
+.container {
+    display: flex;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    margin: 10px 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 50px 70px;
+    align-items: center;
+    height: 1vh;
+    
+    transition: background-color 0.3s;
+}
+
+.nav-item a:hover {
+    background-color: #555; /* Change to your desired hover color */
+}
+
+/* Style for the content frame */
+.content-frame {
+    flex: 1;
+    padding: 50px;
+
+}
+.content-frame{
+    background-color: rgb(142, 87, 224);
+}
+.styleinfo{
+    background-color: rgb(56, 62, 223);
+    padding: 100px;
+    align-items: center;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.infopic img{
+   
+   padding:1px;
+   height: 350px;
+   width: 350px;
+   display: flex;
+   border-radius: 100px;
+   
+}
+.name{font-size: 40px;}
+.about{font-size: 20px;}
+.buttons button{
+    background-color: rgb(127, 75, 241);
+    color: aliceblue;
+    border-radius:22px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+
+
+
+
+
+
